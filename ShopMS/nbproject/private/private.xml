@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/HOC%20TAP/4.%20SP21/PRJ321/ShopMS/src/java/controller/admin/EditProductServlet.java</file>
-            <file>file:/D:/HOC%20TAP/4.%20SP21/PRJ321/ShopMS/web/admin/edit-product.jsp</file>
-            <file>file:/D:/HOC%20TAP/4.%20SP21/PRJ321/ShopMS/src/java/controller/admin/LoadDataToEditForm.java</file>
-            <file>file:/D:/HOC%20TAP/4.%20SP21/PRJ321/ShopMS/web/admin/add-product.jsp</file>
+            <file>file:/D:/HOC%20TAP/4.%20SP21/PRJ321/ShopMS/src/java/controller/filter/FilterProductServlet.java</file>
+            <file>file:/D:/HOC%20TAP/4.%20SP21/PRJ321/ShopMS/src/java/controller/admin/RevenueServlet.java</file>
+            <file>file:/D:/HOC%20TAP/4.%20SP21/PRJ321/ShopMS/src/java/controller/filter/FilterRevenueServlet.java</file>
+            <file>file:/D:/HOC%20TAP/4.%20SP21/PRJ321/ShopMS/src/java/dal/RevenueDAO.java</file>
+            <file>file:/D:/HOC%20TAP/4.%20SP21/PRJ321/ShopMS/web/admin/revenue.jsp</file>
         </group>
     </open-files>
 </project-private>

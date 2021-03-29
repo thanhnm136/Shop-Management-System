@@ -91,11 +91,19 @@
     </servlet>
     <servlet>
         <servlet-name>FilterServlet</servlet-name>
-        <servlet-class>controller.shop.FilterServlet</servlet-class>
+        <servlet-class>controller.filter.FilterProductServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CheckOutServlet</servlet-name>
         <servlet-class>controller.cart.CheckOutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RevenueServlet</servlet-name>
+        <servlet-class>controller.admin.RevenueServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FilterRevenueServlet</servlet-name>
+        <servlet-class>controller.filter.FilterRevenueServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CategoryServlet</servlet-name>
@@ -180,6 +188,14 @@
     <servlet-mapping>
         <servlet-name>CheckOutServlet</servlet-name>
         <url-pattern>/checkout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RevenueServlet</servlet-name>
+        <url-pattern>/revenue</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FilterRevenueServlet</servlet-name>
+        <url-pattern>/filterRevenue</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

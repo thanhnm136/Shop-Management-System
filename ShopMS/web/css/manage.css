@@ -3,6 +3,8 @@
     Created on : Mar 18, 2021, 10:04:40 PM
     Author     : Minh Thanh
 */
+
+
 body {
     color: #566787;
     background: #f7f5f2;
@@ -55,6 +57,7 @@ table{
     float: right;
 }
 .search-box .input-group {
+    height: 2.2em;
     min-width: 300px;
     position: absolute;
     right: 0;
@@ -177,4 +180,8 @@ Modal styles
     color: #fff;
     background-color: #28a745;
     border-color: #28a745;
+}
+.col-sm-6 {
+    /* flex: 0 0 50%; */
+    /* max-width: 50%; */
 }

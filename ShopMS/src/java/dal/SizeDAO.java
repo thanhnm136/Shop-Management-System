@@ -148,6 +148,23 @@ public class SizeDAO extends DBContext {
 
         }
     }
+    
+    public void reduceQuantityByNameAndPid(String pid, String sizeName, int quantitySold) {
+        int remainingQuantity = getQuantityOfSizeByNameAndPid(pid, sizeName);
+        String sql = "UPDATE Size\n"
+                + "SET size_quantity = ?\n"
+                + "WHERE pid = ? AND name = ?";
+        try {
+            st = connection.prepareStatement(sql);
+            st.setInt(1,remainingQuantity - quantitySold); //reduce the quantity
+            st.setString(2, pid);
+            st.setString(3, sizeName);
+
+            st.executeUpdate();
+        } catch (SQLException e) {
+
+        }
+    }
 
     public void editSizeByPid(Size s) {
         String sql = "UPDATE Size\n"

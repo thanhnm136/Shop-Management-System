@@ -58,7 +58,7 @@
                                         <button onclick="myFunction()" class="hover-btn button is-outline dropbtn">${sessionScope.acc.fullName}</button>
                                         <div id="myDropdown" class="dropdown-content">
                                             <c:if test="${sessionScope.acc.role == 1}">
-                                                <a href="#">Revenue <i class="fas fa-hand-holding-usd"></i></a>
+                                                <a href="/myShop/revenue">Revenue <i class="fas fa-hand-holding-usd"></i></a>
                                                 <a href="/myShop/manageUser">Manage Users <i class="fas fa-users-cog"></i></a>
                                                 <a href="/myShop/manageProduct">Manage Products <i class="fas fa-tshirt"></i></a>
                                                 </c:if>

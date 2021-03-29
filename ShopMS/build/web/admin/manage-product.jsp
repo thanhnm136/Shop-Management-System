@@ -9,6 +9,7 @@
 <%@page import="model.Size"%>
 <%@page import="java.util.List"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -83,7 +84,7 @@
                                     </td>
                                     <td><img width="90px" src="${p.image}" />
                                     </td>
-                                    <td>${p.price}</td>
+                                    <td><fmt:formatNumber type="number" value="${p.price}"/></td>
                                     <td>${p.description}</td>
                                     <td>${p.dateCreated}</td>
                                     <td>
