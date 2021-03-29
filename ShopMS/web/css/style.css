@@ -1,0 +1,300 @@
+/* 
+    Created on : Jan 15, 2021, 9:21:13 PM
+    Author     : Minh Thanh
+*/
+
+
+body{
+    margin: 0;
+    /*    max-width: 100%;*/
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.header-main{
+    background-color: black;
+}
+
+.filter{
+    padding-left: 1080px;
+}
+.search-filter{
+    margin-top: 20px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.logo-center .flex-left {
+    order: 1;
+    flex: 1 1 0;
+}
+
+.logo-center .logo {
+    order: 2;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.logo-center .flex-right {
+    order: 3;
+    flex: 1 1 0;
+    /*margin-left: auto;*/
+}
+
+.flex{
+    display: flex;
+}
+
+#logo{
+    width: 210px;
+}
+
+.is-outline{
+    /*color: silver;*/
+    border: 2px solid;
+    border-radius: 5px;
+    color: silver;
+    background-color: black;
+    
+}
+
+.button{
+    line-height: 2.5em;
+    min-height: 2.5em;
+    padding: 0 2.5em;
+    max-width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    min-width: 1.0em; 
+    padding-left: .6em; 
+    padding-right: .6em; 
+    display: inline-block;
+}
+
+button.dropbtn{
+    width: 12em;
+    height: 3.3em;
+}
+
+.submit-bt{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 9px;
+    /*background-color: rgb(240,80,35);*/
+}
+
+/* Dropdown Button */
+.dropbtn {
+/*  background-color: black;
+  border-color: silver;
+  color: silver;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  */cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.hover-btn:hover, .hover-btn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content i {
+    float: right;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.search-bar{
+    
+}
+
+
+.nav-right {
+    justify-content: flex-end;
+    margin-top: 60px;
+    padding-right: 20px;
+}
+
+.flex>li {
+    /*display: inline-block;*/
+    list-style: none;
+    margin: 0 5px;   
+}
+
+/*product icon -category */
+.menu-item{
+    padding:0px 80px;
+}
+
+.products{
+    margin: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    max-width: 30.3333333%;
+}
+.item{
+    /*    display: flex;*/
+    flex-direction: column;
+    padding: 30px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.orange-text{
+    text-transform: uppercase;
+    font-size: large;
+    color: rgb(240,80,35);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding:5px;
+}
+
+.product-price{
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+}
+
+/*footer*/
+.footer{
+    background-color: #5b5b5b;
+}
+
+.footer-text{
+    margin: 0;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    color: white;
+}
+
+.in-underline{
+    text-decoration: none;
+    color: rgb(240,80,35);
+}
+
+/*detail item*/
+.left-item{
+    width: 55%;
+    padding: 1rem;
+}
+
+.image-detail{
+    width: 100%;
+}
+
+.right-item{
+    width: 45%;
+    padding-top: 2rem;
+}
+
+.center-content{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.title-detail{
+    font-size: 1.5rem;
+}
+
+.price-detail{
+    font-size: 1.5rem;
+}
+
+.description{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.grey-text{
+    color: grey;
+}
+
+.hidden{
+    display: none;
+}
+
+.sub-form{
+    margin-top: 1rem;
+}
+
+.quantity-input{
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.border-detail{
+    border: 1px dashed rgb(240,80,35);
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.box-icon{
+   width: 60px;
+}
+
+.box{
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 13px;
+    text-align: center;
+    border: 1px dashed rgb(240,80,35);
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.right-border-dashed{
+    border-right: 1px dashed rgb(240,80,35);
+    padding-right: 5px;
+}
+
+
+
+
+
+
+

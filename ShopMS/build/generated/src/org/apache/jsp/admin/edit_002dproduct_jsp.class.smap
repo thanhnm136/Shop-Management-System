@@ -1,0 +1,20 @@
+SMAP
+edit_002dproduct_jsp.java
+JSP
+*S JSP
+*F
++ 0 edit-product.jsp
+admin/edit-product.jsp
+*L
+5,27:44
+32:71,3
+33,3:74
+36:77,3
+37,11:80
+48:91,3
+49,4:94
+53:98,3
+54,3:101
+57:104,3
+58,61:107
+*E
